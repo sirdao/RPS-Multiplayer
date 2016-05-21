@@ -1,0 +1,51 @@
+body {
+    background-color: #90c9bf;
+    font-size: 16px;
+	font-family: 'Baskerville', 'BlairMdITC TT-Medium', Helvetica, sans-serif;
+	color: red;
+	margin-left: 20px;
+}
+#name {
+	margin-top: 10px;
+}
+#player1, #player2 {
+	text-align: center;
+}
+#wins1, #losses1, #wins2, #losses2 {
+	float: left;
+	margin-top: 30px;
+}
+#wins1, #wins2 {
+	margin-right: 20px;
+	margin-left: 80px;
+}
+#rock1, #scissors1, #paper1, #rock2, #scissors2, #paper2 {
+	margin-top:10px;
+	text-align: center;
+}
+.players {
+	margin-top: 10px;
+}
+.left, .right{
+	border: 1px solid black;
+	height: 200px;
+	background-color: white;
+}
+.middle{
+	border: 1px solid black;
+	height: 200px;
+}
+.comments {
+	margin-top: 10px;
+}
+
+.input-mysize {
+    width: 450px;
+    float: left;
+}
+.commentsSubmit {
+	float: right;
+}
+.chosen {
+	font-size: 50px;
+}
